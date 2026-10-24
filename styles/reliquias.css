@@ -31,19 +31,36 @@
 	--rel-san: #2f6f6a;
 }
 html[data-reliquias-tema="escuro"] {
-	--rel-fundo: #141010;
-	--rel-fundo-2: #1d1514;
-	--rel-fundo-3: #271b19;
-	--rel-linha: rgba(217, 182, 93, 0.16);
-	--rel-ouro: #d9b65d;
-	--rel-texto: #eadcc4;
-	--rel-texto-2: #b9a98e;
-	--rel-texto-3: #8f8270;
+	--rel-fundo: #141318;
+	--rel-fundo-2: #1c1b22;
+	--rel-fundo-3: #24222c;
+	--rel-linha: rgba(195, 174, 242, 0.14);
+	--rel-vermelho: #6b56a8;
+	--rel-vermelho-claro: #9d86d6;
+	--rel-ouro: #c3aef2;
+	--rel-texto: #e6e3ec;
+	--rel-texto-2: #c6c1d0;
+	--rel-texto-3: #8f8a9a;
 	--rel-painel: rgba(255, 255, 255, 0.04);
-	--rel-borda: rgba(217, 182, 93, 0.28);
-	--rel-rosa: #3a1a1a;
-	--rel-ed: #a58ad6;
-	--rel-san: #6fb8b0;
+	--rel-borda: rgba(195, 174, 242, 0.24);
+	--rel-rosa: #2a2538;
+	--rel-ed: #c3aef2;
+	--rel-san: #c3aef2;
+}
+/* T20 Hayd UI (modo escuro) com o mesmo roxo e textos neutros */
+html[data-reliquias-tema="escuro"],
+html[data-reliquias-tema="escuro"] :is(body, .t20a-dm) {
+	--t20a-cor-destaque: #6b56a8 !important;
+	--t20dm-acento: #6b56a8 !important;
+	--t20dm-acento-borda: color-mix(in srgb, #6b56a8 55%, transparent) !important;
+	--t20dm-acento-claro: color-mix(in srgb, #6b56a8 60%, white) !important;
+	--t20dm-acento-hover: color-mix(in srgb, #6b56a8 24%, transparent) !important;
+	--t20dm-acento-suave: color-mix(in srgb, #6b56a8 16%, transparent) !important;
+	--t20dm-text-primary: #e6e3ec !important;
+	--t20dm-text-secondary: #c6c1d0 !important;
+	--t20dm-text-muted: #8f8a9a !important;
+	--t20dm-border: rgba(195, 174, 242, 0.16) !important;
+	--t20dm-border-strong: rgba(195, 174, 242, 0.3) !important;
 }
 
 /* ---------------- fonte do livro nos títulos ---------------- */
@@ -65,8 +82,8 @@ html[data-reliquias-fonte="sim"] :is(
 
 /* ---------------- tema escuro: janelas ---------------- */
 html[data-reliquias-tema="escuro"] :is(.window-app, .application) > .window-header {
-	background: linear-gradient(180deg, #2b0c0c 0%, #170909 100%);
-	border-bottom: 1px solid #5a1e1e;
+	background: linear-gradient(180deg, #2a2438 0%, #17161c 100%);
+	border-bottom: 1px solid #3e3653;
 	color: var(--rel-ouro);
 }
 html[data-reliquias-tema="escuro"] :is(.window-app, .application) > .window-header :is(.window-title, a, button, i) {
@@ -76,16 +93,16 @@ html[data-reliquias-tema="escuro"] :is(.window-app, .application) > .window-head
 /* ---------------- tema escuro: fichas do Tormenta20 ---------------- */
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .window-content,
 html[data-reliquias-tema="escuro"] .reliquias.rel-dialogo .window-content {
-	background: radial-gradient(ellipse at top, #241918 0%, #141010 70%) !important;
+	background: radial-gradient(ellipse at top, #221f2b 0%, #141318 70%) !important;
 	color: var(--rel-texto);
 }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(input, select, textarea):not([type="checkbox"]):not([type="radio"]) {
 	background: rgba(0, 0, 0, 0.35);
 	color: var(--rel-texto);
-	border-color: #4a2b26;
+	border-color: #3e3653;
 }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(input, select, textarea):disabled { color: var(--rel-texto-3); }
-html[data-reliquias-tema="escuro"] .tormenta20.sheet option { background: #1d1514; color: var(--rel-texto); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet option { background: #1c1b22; color: var(--rel-texto); }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(h1, h2, h3, h4, label, .item-name, .item-summary, .effects-list, .effects-list .item .item-name) { color: var(--rel-texto); }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet h4.box-title,
 html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor h4.box-title { color: var(--rel-ouro); }
@@ -103,22 +120,22 @@ html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(.tag, .traits .trait-li
 }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .items-header,
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .item-list .items-header {
-	background: linear-gradient(90deg, #5a0f0f, #2b0c0c);
+	background: linear-gradient(90deg, #3d3359, #22202b);
 	color: var(--rel-ouro);
 }
-html[data-reliquias-tema="escuro"] .tormenta20.sheet .item-list .item:hover { background: rgba(152, 0, 0, 0.18); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .item-list .item:hover { background: rgba(107, 86, 168, 0.18); }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(a, .rollable):hover { color: var(--rel-ouro); text-shadow: none; }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet nav.tabs .item.active,
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .sheet-tabs .item.active {
 	color: var(--rel-ouro);
-	text-shadow: 0 0 6px rgba(217, 182, 93, 0.35);
+	text-shadow: 0 0 6px rgba(195, 174, 242, 0.35);
 	border-bottom: 2px solid var(--rel-vermelho);
 }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .ability .atributo-value { color: var(--rel-ouro); }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .editor-content,
 html[data-reliquias-tema="escuro"] .tormenta20.sheet .editor { color: var(--rel-texto); }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(hr) { border-color: var(--rel-linha); }
-html[data-reliquias-tema="escuro"] .tormenta20.sheet .profile { border-color: #5a1e1e; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .profile { border-color: #3e3653; }
 
 /* ---------------- tema escuro: diário e chat ---------------- */
 html[data-reliquias-tema="escuro"] .journal-entry-page :is(h1, h2, h3) { color: var(--rel-ouro); border-color: var(--rel-borda); }
@@ -257,7 +274,7 @@ html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-bloco > legend { color
 .tormenta20.sheet .rel-bloco button { width: auto; padding: 0 10px; line-height: 24px; }
 .tormenta20.sheet .rel-forja-nivel { align-items: center; gap: 10px; }
 .tormenta20.sheet .rel-forja-num { flex: 0 0 64px; font-size: 32px; text-align: center; color: var(--rel-vermelho-claro); }
-html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-forja-num { color: var(--rel-ouro); text-shadow: 0 0 8px rgba(217, 182, 93, 0.35); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-forja-num { color: var(--rel-ouro); text-shadow: 0 0 8px rgba(195, 174, 242, 0.35); }
 .tormenta20.sheet .rel-forja-info { flex: 1; }
 .tormenta20.sheet .rel-forja-nivel button { flex: 0 0 auto; }
 .tormenta20.sheet .rel-forja-mods { list-style: none; margin: 2px 0 6px; padding: 0; }
@@ -286,7 +303,43 @@ html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-forja-num { color: var
 .rel-tabela { width: 100%; border-collapse: collapse; margin: 8px 0; text-align: center; }
 .rel-tabela th { background: #980000; color: #1a0505; border: 1px solid #000; padding: 4px; font-weight: bold; }
 .rel-tabela td { background: #f4cccc; color: #191813; border: 1px solid #000; padding: 3px 4px; }
-html[data-reliquias-tema="escuro"] .rel-tabela th { color: #f3e6c8; border-color: #3a1010; }
-html[data-reliquias-tema="escuro"] .rel-tabela td { background: #2a1717; color: #eadcc4; border-color: #3a1010; }
+html[data-reliquias-tema="escuro"] .rel-tabela th { background: #4a3d6e; color: #f1ecfb; border-color: #2a2438; }
+html[data-reliquias-tema="escuro"] .rel-tabela td { background: #201e28; color: #e6e3ec; border-color: #2a2438; }
 .rel-pericias thead { display: none; }
 .rel-formula { text-align: center; padding: 6px; border-top: 1px solid #980000; border-bottom: 1px solid #980000; }
+
+html[data-reliquias-tema="escuro"] .rel-formula { border-color: #6b56a8; }
+html[data-reliquias-tema="escuro"] :is(.rel-critico, .rel-chat-forja) { background: rgba(107, 86, 168, 0.08); }
+html[data-reliquias-tema="escuro"] .rel-critico h3 { color: #4a3d6e; }
+
+/* ---------------- caixas da ficha (atributos, PV, PM, ED, Sanidade, Defesa) iguais ---------------- */
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(.ability-scores, li.attribute.health, li.attribute.mana, li.attribute.defense, li.attribute.rel-recurso) {
+	position: relative;
+	background: rgba(14, 13, 18, 0.62) !important;
+	border: 1px solid rgba(195, 174, 242, 0.22) !important;
+	border-radius: 8px !important;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 4px 14px rgba(0, 0, 0, 0.3) !important;
+}
+html[data-reliquias-tema="escuro"] body .tormenta20.sheet.actor.actor li.attribute.attribute:is(.health, .mana, .defense, .rel-recurso) {
+	border: 1px solid rgba(195, 174, 242, 0.22) !important;
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(li.attribute.health, li.attribute.mana, li.attribute.defense, li.attribute.rel-recurso)::before {
+	content: "" !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 10% !important;
+	width: 80% !important;
+	height: 2px !important;
+	border-radius: 0 0 2px 2px;
+	background: #6b56a8 !important;
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(li.attribute.health, li.attribute.mana, li.attribute.defense, li.attribute.rel-recurso) .attribute-name,
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor .ability-scores .ability-name { color: #c3aef2 !important; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor .ability-scores .atributo-value { color: #e2d8fb !important; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(li.attribute.health, li.attribute.mana, li.attribute.defense, li.attribute.rel-recurso) :is(input, select):not([type="checkbox"]) {
+	background: rgba(0, 0, 0, 0.35) !important;
+	border: 1px solid rgba(195, 174, 242, 0.18) !important;
+	color: #e2d8fb !important;
+	border-radius: 4px;
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor .ability-scores .ability + .ability { border-left: 1px solid rgba(195, 174, 242, 0.14) !important; }
