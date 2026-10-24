@@ -77,6 +77,11 @@ function injetarFicha(app, html) {
 	if (!actor || actor.type !== "character") return;
 	const raiz = elemento(html);
 	if (!raiz || raiz.querySelector(".rel-recurso")) return;
+	// nomes do livro na lista de perícias (o sistema mostra a chave do atributo: con, car)
+	if (cfg("nomesLivro", true)) raiz.querySelectorAll(".skills-list .item-abl span").forEach((sp) => {
+		const t = sp.textContent.trim().toLowerCase();
+		if (t === "con") sp.textContent = "vig"; else if (t === "car") sp.textContent = "pre";
+	});
 	const editavel = app.isEditable;
 	const ed = calcularED(actor);
 	const san = calcularSanidade(actor);
