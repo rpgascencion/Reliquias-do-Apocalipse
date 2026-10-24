@@ -343,3 +343,12 @@ html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(li.attribute.heal
 	border-radius: 4px;
 }
 html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor .ability-scores .ability + .ability { border-left: 1px solid rgba(195, 174, 242, 0.14) !important; }
+
+/* ---------------- fonte do livro em toda a ficha (menos textos longos: descrições e diário) ---------------- */
+html[data-reliquias-fonte="sim"] .tormenta20.sheet .window-content :is(h1, h2, h3, h4, h5, label, span, a, li, th, td, div, button, select, option, input):not(.editor-content *, .editor *, prose-mirror *, .item-description .editor-content, textarea, .fa-solid, .fa-regular, .fas, .far, .fab, i) {
+	font-family: var(--rel-fonte) !important;
+	letter-spacing: 0.02em;
+}
+html[data-reliquias-fonte="sim"] .tormenta20.sheet .window-content :is(.editor-content, .editor-content *, prose-mirror, prose-mirror *, textarea) {
+	font-family: var(--font-body, "Signika", sans-serif);
+}
