@@ -1,0 +1,1357 @@
+{
+ "folders": [
+  {
+   "_id": "QAeBQC0gRAgkOHRR",
+   "name": "Armas de Fogo Arcanas",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 1,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "6PixgsnsGrDmt9Fp",
+   "name": "Armaduras",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 2,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "vSZarD7mmzko6eIU",
+   "name": "Escudos",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 3,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "J08Sv026Z00dC9n3",
+   "name": "Pistola Arcana",
+   "type": "arma",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pistola.webp",
+   "system": {
+    "description": {
+     "value": "<p>Arma leve e prática, ideal para combates rápidos a curta distância. Possui 6 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 1,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 250,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "short",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d8",
+        "perfuracao"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "fog",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "leve",
+    "criticoM": 20,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "QAeBQC0gRAgkOHRR",
+   "sort": 0,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "pente": 6,
+     "armaFogoArcana": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "cK0btYdSukkLJKc8",
+   "name": "Escopeta Mística",
+   "type": "arma",
+   "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
+   "system": {
+    "description": {
+     "value": "<p>Devastadora em proximidade, dispara energia mágica concentrada; seu disparo atinge uma área cônica de 6m. Empunhada com duas mãos. Possui 3 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 1,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 550,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "short",
+    "alvo": "",
+    "area": "Cone de 6m",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d6",
+        "perfuracao"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "fog",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "criticoM": 20,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "QAeBQC0gRAgkOHRR",
+   "sort": 100,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "pente": 3,
+     "armaFogoArcana": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "FYrBha36qbHnd18o",
+   "name": "Rifle Arcano",
+   "type": "arma",
+   "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
+   "system": {
+    "description": {
+     "value": "<p>Uma arma de duas mãos e precisa; necessita de +2 em Força para ser utilizada. <strong>Ignora metade da RD do alvo</strong> (aplique na mesa). Possui 4 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 2,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 1000,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "m",
+     "value": 40
+    },
+    "alcance": "m",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d12",
+        "perfuracao"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "fog",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "criticoM": 20,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "QAeBQC0gRAgkOHRR",
+   "sort": 200,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "pente": 4,
+     "armaFogoArcana": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "4x77hAfCfXb3hVDX",
+   "name": "Carabina de Rajada",
+   "type": "arma",
+   "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
+   "system": {
+    "description": {
+     "value": "<p>Uma arma de duas mãos que dispara em sucessão rápida, sacrificando precisão pela pressão ofensiva. Pode gastar <strong>+1 PM</strong> para efetuar um disparo em rajada de 3 tiros; cada disparo além do primeiro recebe –1 na Pontaria, sucessivamente. Possui 9 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 1,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 650,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "medium",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d8",
+        "perfuracao"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "fog",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "criticoM": 20,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "QAeBQC0gRAgkOHRR",
+   "sort": 300,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "pente": 9,
+     "armaFogoArcana": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "vnNdisXmvX6zg0Jj",
+   "name": "Arcanoblaster",
+   "type": "arma",
+   "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
+   "system": {
+    "description": {
+     "value": "<p>Uma arma de duas mãos que dispara descargas mágicas devastadoras. Pode gastar <strong>+2 PM</strong> para um disparo concentrado, causando 1 dado de dano a mais e ignorando a RD do alvo nesse ataque. Possui 3 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 2,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 1250,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "medium",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d8",
+        "perfuracao"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "fog",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "criticoM": 20,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "QAeBQC0gRAgkOHRR",
+   "sort": 400,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "pente": 3,
+     "armaFogoArcana": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "eLt0l3M51pOoCbvt",
+   "name": "Armadura Simples",
+   "type": "equipamento",
+   "img": "systems/tormenta20/icons/itens/equipamentos/armadura-couro.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bônus de Defesa:</strong> +2. <strong>Redução de dano:</strong> 1. <strong>Penalidade:</strong> —. <strong>Deslocamento:</strong> 9m.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 1,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 20,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": 0,
+     "value": 2
+    },
+    "tipo": "leve"
+   },
+   "effects": [
+    {
+     "name": "Armadura Simples: redução de dano 1",
+     "img": "icons/svg/shield.svg",
+     "type": "base",
+     "system": {},
+     "tint": "#ffffff",
+     "description": "",
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.bonus",
+       "mode": 2,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false
+      }
+     },
+     "_stats": {
+      "coreVersion": "13.351",
+      "systemId": "tormenta20",
+      "systemVersion": "1.5.015",
+      "createdTime": 1792800000000,
+      "modifiedTime": 1792800000000,
+      "lastModifiedBy": "reliquias00000000",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "_id": "MltMpvmgYq8uHX36",
+     "origin": null
+    }
+   ],
+   "folder": "6PixgsnsGrDmt9Fp",
+   "sort": 0,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "0ibdalsoj4c2Teil",
+   "name": "Armadura Média",
+   "type": "equipamento",
+   "img": "systems/tormenta20/icons/itens/equipamentos/brunea.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bônus de Defesa:</strong> +4. <strong>Redução de dano:</strong> 3. <strong>Penalidade:</strong> -3. <strong>Deslocamento:</strong> 9m.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 2,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 40,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": -3,
+     "value": 4
+    },
+    "tipo": "leve"
+   },
+   "effects": [
+    {
+     "name": "Armadura Média: redução de dano 3",
+     "img": "icons/svg/shield.svg",
+     "type": "base",
+     "system": {},
+     "tint": "#ffffff",
+     "description": "",
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.bonus",
+       "mode": 2,
+       "value": "3",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false
+      }
+     },
+     "_stats": {
+      "coreVersion": "13.351",
+      "systemId": "tormenta20",
+      "systemVersion": "1.5.015",
+      "createdTime": 1792800000000,
+      "modifiedTime": 1792800000000,
+      "lastModifiedBy": "reliquias00000000",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "_id": "Te4UPyOeBbLwloqU",
+     "origin": null
+    }
+   ],
+   "folder": "6PixgsnsGrDmt9Fp",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "Iw0Qsa5BpvneZRhK",
+   "name": "Armadura Completa",
+   "type": "equipamento",
+   "img": "systems/tormenta20/icons/itens/equipamentos/armadura-completa.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bônus de Defesa:</strong> +7. <strong>Redução de dano:</strong> 5. <strong>Penalidade:</strong> -5. <strong>Deslocamento:</strong> -3m.</p><p>Reduz o deslocamento em 3m (armadura pesada).</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 5,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 250,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": -5,
+     "value": 7
+    },
+    "tipo": "pesada"
+   },
+   "effects": [
+    {
+     "name": "Armadura Completa: redução de dano 5",
+     "img": "icons/svg/shield.svg",
+     "type": "base",
+     "system": {},
+     "tint": "#ffffff",
+     "description": "",
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.bonus",
+       "mode": 2,
+       "value": "5",
+       "priority": null
+      }
+     ],
+     "disabled": false,
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false
+      }
+     },
+     "_stats": {
+      "coreVersion": "13.351",
+      "systemId": "tormenta20",
+      "systemVersion": "1.5.015",
+      "createdTime": 1792800000000,
+      "modifiedTime": 1792800000000,
+      "lastModifiedBy": "reliquias00000000",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "_id": "aLpNlifIWbBvcyNe",
+     "origin": null
+    }
+   ],
+   "folder": "6PixgsnsGrDmt9Fp",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "HzsstO5Fe7UJ0TSb",
+   "name": "Escudo Leve",
+   "type": "equipamento",
+   "img": "systems/tormenta20/icons/itens/equipamentos/escudo-leve.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bônus de Defesa:</strong> +1. <strong>Redução de dano:</strong> —. <strong>Penalidade:</strong> -1. <strong>Deslocamento:</strong> -.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 1,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 5,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": -1,
+     "value": 1
+    },
+    "tipo": "escudo"
+   },
+   "effects": [],
+   "folder": "vSZarD7mmzko6eIU",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "NnyokfBjB0xnHhLy",
+   "name": "Escudo Pesado",
+   "type": "equipamento",
+   "img": "systems/tormenta20/icons/itens/equipamentos/escudo-pesado.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bônus de Defesa:</strong> +2. <strong>Redução de dano:</strong> —. <strong>Penalidade:</strong> -2. <strong>Deslocamento:</strong> -.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 2,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 15,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": -2,
+     "value": 2
+    },
+    "tipo": "escudo"
+   },
+   "effects": [],
+   "folder": "vSZarD7mmzko6eIU",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ]
+}

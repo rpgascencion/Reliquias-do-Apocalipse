@@ -1,0 +1,973 @@
+{
+ "folders": [
+  {
+   "_id": "6RiTjUoA3K5OqlrN",
+   "name": "Modelos",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 1,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "h32QVxmK6eWMeGAJ",
+   "name": "Bênção (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/poderes/distincao.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Bênção de [divindade]</strong>. Fragmento da alma de um deus selado desperto no Arauto. Funciona como uma <strong>Distinção</strong>.</p><p><strong>Atributo-Chave:</strong> Intelecto, Sabedoria ou Presença (escolha no bloco Relíquias da ficha do personagem).</p><p><strong>Domínio:</strong> descreva aqui o domínio do deus. As Técnicas Divinas devem sempre remeter a ele.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 0,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "bencao": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "yMMgQ3CsuYEvSQBE",
+   "name": "Marca da Bênção (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/bencao.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Marca da Bênção</strong> (Passiva I). Sinal divino na alma e no corpo do Arauto, recebido no 1º nível. Conta como 1 das 3 passivas máximas da Bênção e <strong>não reduz</strong> o ED máximo.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 10,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 0,
+      "passiva": true,
+      "marca": true
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "9tBM5kdUYfoAAuAi",
+   "name": "Técnica Divina — Nível 0 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 0</strong> (ativa). Custo: <strong>0 ED</strong>. Acesso a partir do 1º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 20,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 0,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "h0sNKKXQe8cnD1mc",
+   "name": "Técnica Divina — Nível 1 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 1</strong> (ativa). Custo: <strong>1 ED</strong>. Acesso a partir do 1º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 1,
+     "mpMultiplier": false,
+     "target": "ed",
+     "type": "attribute"
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 21,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 1,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ga8Eo1KJyzzpEuG7",
+   "name": "Técnica Divina — Nível 2 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 2</strong> (ativa). Custo: <strong>2 ED</strong>. Acesso a partir do 5º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 2,
+     "mpMultiplier": false,
+     "target": "ed",
+     "type": "attribute"
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 22,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 2,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "eYds9g8pCoqhvfdj",
+   "name": "Técnica Divina — Nível 3 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 3</strong> (ativa). Custo: <strong>3 ED</strong>. Acesso a partir do 9º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 3,
+     "mpMultiplier": false,
+     "target": "ed",
+     "type": "attribute"
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 23,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 3,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "RNTt79JD1HhbTtxw",
+   "name": "Técnica Divina — Nível 4 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 4</strong> (ativa). Custo: <strong>4 ED</strong>. Acesso a partir do 13º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 4,
+     "mpMultiplier": false,
+     "target": "ed",
+     "type": "attribute"
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 24,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 4,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "TmbDC9iEs1tizI0f",
+   "name": "Técnica Divina — Nível 5 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/intervencao-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina — Nível 5</strong> (ativa). Custo: <strong>5 ED</strong>. Acesso a partir do 17º nível de personagem.</p><p>CD = 10 + ½ do nível + atributo-chave da Bênção.</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 5,
+     "mpMultiplier": false,
+     "target": "ed",
+     "type": "attribute"
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 25,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 5,
+      "passiva": false,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "TgbmEKoEYm94Rk72",
+   "name": "Técnica Divina Passiva — Nível 1 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/aura-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina Passiva — Nível 1</strong>. Reserva <strong>1 ED</strong> do seu máximo enquanto estiver na ficha. Acesso a partir do 1º nível. Você pode ter no máximo 3 passivas da Bênção (contando a Marca).</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 41,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 1,
+      "passiva": true,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "VUO9U4bDltdYaIhX",
+   "name": "Técnica Divina Passiva — Nível 2 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/aura-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina Passiva — Nível 2</strong>. Reserva <strong>2 ED</strong> do seu máximo enquanto estiver na ficha. Acesso a partir do 5º nível. Você pode ter no máximo 3 passivas da Bênção (contando a Marca).</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 42,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 2,
+      "passiva": true,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "WBNBG2jf8MrilVpV",
+   "name": "Técnica Divina Passiva — Nível 3 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/aura-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina Passiva — Nível 3</strong>. Reserva <strong>3 ED</strong> do seu máximo enquanto estiver na ficha. Acesso a partir do 9º nível. Você pode ter no máximo 3 passivas da Bênção (contando a Marca).</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 43,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 3,
+      "passiva": true,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "6jrZlRnovrfLj0L3",
+   "name": "Técnica Divina Passiva — Nível 4 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/aura-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina Passiva — Nível 4</strong>. Reserva <strong>4 ED</strong> do seu máximo enquanto estiver na ficha. Acesso a partir do 13º nível. Você pode ter no máximo 3 passivas da Bênção (contando a Marca).</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 44,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 4,
+      "passiva": true,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "gdOtcWj6rAGGbWR8",
+   "name": "Técnica Divina Passiva — Nível 5 (modelo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/magias/aura-divina.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong>Técnica Divina Passiva — Nível 5</strong>. Reserva <strong>5 ED</strong> do seu máximo enquanto estiver na ficha. Acesso a partir do 17º nível. Você pode ter no máximo 3 passivas da Bênção (contando a Marca).</p><p>Descreva o efeito aqui.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "6RiTjUoA3K5OqlrN",
+   "sort": 45,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "tecnica": {
+      "nivel": 5,
+      "passiva": true,
+      "marca": false
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ]
+}

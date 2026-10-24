@@ -1,0 +1,93 @@
+{
+  "id": "reliquias-do-apocalipse",
+  "title": "As Relíquias do Apocalipse (T20)",
+  "description": "Ambientação As Relíquias do Apocalipse para o Tormenta20: o livro completo em diários, armas de fogo arcanas, armaduras, Forja de Gudar (+1 a +10, modificações, materiais especiais e runas), Bênçãos e Técnicas Divinas com Energia Divina, Sanidade, distribuição de pontos do livro, crítico com d100 e tema escuro com a fonte do livro (inclusive no T20 Sidebar).",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "ASCUNCAO"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.5.0"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "t20-sidebar",
+        "type": "module",
+        "reason": "Com o T20 Sidebar ativo, a barra lateral também recebe a paleta escura e a fonte do Relíquias."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/reliquias.css"
+  ],
+  "packs": [
+    {
+      "name": "livro",
+      "label": "Relíquias: Livro Básico",
+      "system": "tormenta20",
+      "path": "packs/livro",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "equipamentos",
+      "label": "Relíquias: Armas e Armaduras",
+      "system": "tormenta20",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "forja",
+      "label": "Relíquias: Forja e Materiais",
+      "system": "tormenta20",
+      "path": "packs/forja",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "bencaos",
+      "label": "Relíquias: Bênçãos e Técnicas",
+      "system": "tormenta20",
+      "path": "packs/bencaos",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "reliquias",
+      "label": "Relíquias: Itens do Mestre",
+      "system": "tormenta20",
+      "path": "packs/reliquias",
+      "type": "Item",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Relíquias do Apocalipse",
+      "sorting": "m",
+      "color": "#5a0f0f",
+      "packs": ["livro", "equipamentos", "forja", "bencaos", "reliquias"]
+    }
+  ],
+  "url": "https://github.com/rpgascencion/reliquias-do-apocalipse",
+  "manifest": "https://raw.githubusercontent.com/rpgascencion/reliquias-do-apocalipse/main/module.json",
+  "download": "https://github.com/rpgascencion/reliquias-do-apocalipse/raw/main/reliquias-do-apocalipse.zip",
+  "readme": "https://github.com/rpgascencion/reliquias-do-apocalipse/blob/main/README.md"
+}

@@ -1,0 +1,2862 @@
+{
+ "folders": [
+  {
+   "_id": "1mydJuyEjq9gprFo",
+   "name": "Pedras da Forja (armas)",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 1,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "DLcRcUmj9yuW7EjS",
+   "name": "Ladrilhos da Proteção (armaduras)",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 2,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "rVbD8BEO2PYcS5Bm",
+   "name": "Materiais Especiais",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 3,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "1FGz0lWwEkPxwRgb",
+   "name": "Pedra da Forja +1",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+1</strong>. Além dele. o aprimoramento custa <strong>1.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 10,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 1,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "4ThHd6Me066uYy14",
+   "name": "Ladrilho da Proteção +1",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+1</strong>. Além dele. o aprimoramento custa <strong>1.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 10,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 1,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "TVlhhpXXDQ8OAhww",
+   "name": "Pedra da Forja +2",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+2</strong>. Além dele. o aprimoramento custa <strong>2.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 20,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 2,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "vm0BKIofCG4po7Qh",
+   "name": "Ladrilho da Proteção +2",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+2</strong>. Além dele. o aprimoramento custa <strong>2.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 20,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 2,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "2o3mzZOehuSGmhqK",
+   "name": "Pedra da Forja +3",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+3</strong>. Além dele. o aprimoramento custa <strong>4.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 30,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 3,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "fwVzxKe04zVFDDCz",
+   "name": "Ladrilho da Proteção +3",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+3</strong>. Além dele. o aprimoramento custa <strong>4.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 30,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 3,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "oA95vJM4WJSRoacN",
+   "name": "Pedra da Forja +4",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+4</strong>. Além dele. o aprimoramento custa <strong>8.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 40,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 4,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "8qFfsOTlaQc1Ce7Y",
+   "name": "Ladrilho da Proteção +4",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+4</strong>. Além dele. o aprimoramento custa <strong>8.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 40,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 4,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "Z7c3j0biGA1UYqTh",
+   "name": "Pedra da Forja +5",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+5</strong>. Além dele. o aprimoramento custa <strong>16.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 50,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 5,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "zWsJriQ6OnWX27MS",
+   "name": "Ladrilho da Proteção +5",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+5</strong>. Além dele. o aprimoramento custa <strong>16.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 50,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 5,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ohjfKcDXqERQTS9F",
+   "name": "Pedra da Forja +6",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+6</strong>. Além dele. o aprimoramento custa <strong>32.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 60,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 6,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "3LDYUAqpueEh5c3J",
+   "name": "Ladrilho da Proteção +6",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+6</strong>. Além dele. o aprimoramento custa <strong>32.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 60,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 6,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "IkV7XmVhjvKiLBfF",
+   "name": "Pedra da Forja +7",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+7</strong>. Além dele. o aprimoramento custa <strong>64.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 70,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 7,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ntNkSa5zF1eMP9dK",
+   "name": "Ladrilho da Proteção +7",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+7</strong>. Além dele. o aprimoramento custa <strong>64.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 70,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 7,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "vFCSVSdSqyXBIj7G",
+   "name": "Pedra da Forja +8",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+8</strong>. Além dele. o aprimoramento custa <strong>128.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 80,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 8,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "Bpl6QIv6Vn3rbWTg",
+   "name": "Ladrilho da Proteção +8",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+8</strong>. Além dele. o aprimoramento custa <strong>128.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 80,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 8,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "fivuwQtfD6bXzsIQ",
+   "name": "Pedra da Forja +9",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+9</strong>. Além dele. o aprimoramento custa <strong>256.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 90,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 9,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "cBuEcKqvwXPcauhl",
+   "name": "Ladrilho da Proteção +9",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+9</strong>. Além dele. o aprimoramento custa <strong>256.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 90,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 9,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ctZBdhR71IUO0EYb",
+   "name": "Pedra da Forja +10",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/equipamentos/pedras.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma arma ao nível <strong>+10</strong>. Além dele. o aprimoramento custa <strong>400.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "1mydJuyEjq9gprFo",
+   "sort": 100,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 10,
+      "tipo": "arma"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "DQRVIL1Qx3ac7T6R",
+   "name": "Ladrilho da Proteção +10",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p>Material de aprimoramento usado para levar uma armadura ou escudo ao nível <strong>+10</strong>. Além dele. o aprimoramento custa <strong>400.000 Midares</strong>.</p><p>Use o bloco <em>Forja</em> na ficha do item: com este material no inventário do personagem, ele é consumido automaticamente.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "DLcRcUmj9yuW7EjS",
+   "sort": 100,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "forja": {
+      "nivel": 10,
+      "tipo": "armadura"
+     }
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "sFQx5fhljiphDKcM",
+   "name": "Aço-Lunar",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/mitral.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Metal forjado sob a luz plena das luas gêmeas de Gudar, conduz magia com pureza quase divina.</em></p><ul><li><strong>Arma:</strong> +1 de dano mágico (+1 adicional a cada 3 níveis); em +10, ignora resistência mágica.</li><li><strong>Armadura:</strong> Resistência a um tipo de energia mágica (fogo, frio, elétrico, ácido, luz ou trevas) 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de energia pura causam +1 de dano por dado.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 0,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "aco-lunar"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ziy5gBW1h8jggdUR",
+   "name": "Cristal Solar",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/po-de-cristal.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Minerado nas dunas de Crystalis, o cristal armazena fragmentos do sol.</em></p><ul><li><strong>Arma:</strong> Causa +1 de dano por fogo (+1 a cada 3 níveis).</li><li><strong>Armadura:</strong> Resistência a frio 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de fogo causam +1d6 adicional em +7 e +2d6 em +10.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 10,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "cristal-solar"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "akroTpXhky4OerSW",
+   "name": "Quitina de Razza",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/ossos-de-monstro.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Proveniente de monstros ancestrais, vibra com energia primal.</em></p><ul><li><strong>Arma:</strong> Ao rolar dano máximo, role novamente 1 dado.</li><li><strong>Armadura:</strong> +1 Defesa (+1 a cada 3 níveis) e +2/+3/+4/+5 em Percepção.</li><li><strong>Esotérico:</strong> Magias com dano máximo repetem 1 dado.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 20,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "quitina-de-razza"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "9dlBdYAb0ZTrEkRR",
+   "name": "Aço-Rubi",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/aco-rubi.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Metal vítreo forjado em chamas dracônicas.</em></p><ul><li><strong>Arma:</strong> Ignora 2/4/6/8 de RD.</li><li><strong>Armadura:</strong> Chance de ignorar dano crítico 10%/25%/40%/50%.</li><li><strong>Esotérico:</strong> Magias ignoram RD e resistência equivalente a 5/10/15/20.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 30,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "aco-rubi"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "bWGXCpTuBVBlOWoV",
+   "name": "Adamante Meteórico",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/adamante.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Fragmento de estrelas caídas, pesado e poderoso.</em></p><ul><li><strong>Arma:</strong> Aumenta o dano em 1 passo (+1 passo a cada 4 níveis).</li><li><strong>Armadura:</strong> RD 2/4/6/8.</li><li><strong>Esotérico:</strong> Rerrola resultados 1 no dano.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 40,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "adamante-meteorico"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "jzGmIBCnaHHfTMEy",
+   "name": "Madeira de Crystalis",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/madeira-magica.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Uma madeira negra e rígida, permeada por magia natural.</em></p><ul><li><strong>Arma:</strong> Conta como mágica e reduz o custo de habilidades em –1 PM.</li><li><strong>Armadura:</strong> Resistência à magia +2/+3/+4/+5.</li><li><strong>Esotérico:</strong> Resistência à magia +2/+3/+4/+5.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 50,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "madeira-de-crystalis"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "waLufL1D1GA2exdH",
+   "name": "Ferro Vivo",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/materia-vermelha.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Metal que pulsa como carne e se regenera em batalha.</em></p><ul><li><strong>Arma:</strong> +1 de dano físico (+1 a cada 3 níveis). Em +10, recupera 1 PV por ataque bem-sucedido.</li><li><strong>Armadura:</strong> Regenera 1 PV por rodada (+1 adicional a cada 3 níveis).</li><li><strong>Esotérico:</strong> Ao lançar magia de toque, recupera 1d4 PV.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 60,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "ferro-vivo"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "egoJR9mdY0VUSLCp",
+   "name": "Sangrâmbaro",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/madeira-tollon.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Madeira carmesim que se alimenta da vida e do sangue derramado.</em></p><ul><li><strong>Arma:</strong> +1d4 de dano de sangramento (+1d4 a cada 3 níveis).</li><li><strong>Armadura:</strong> Resistência a corte 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de necromancia ou sangue restauram 1d6 PV ao conjurador em +10.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 70,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "sangrambaro"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "syziPv1AWmW3iyZJ",
+   "name": "Aço-Vulcânico",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/baga-de-fogo.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Metal temperado em lava viva, usado por ferreiros de Talavaar.</em></p><ul><li><strong>Arma:</strong> +1 de dano de fogo (+1 a cada 3 níveis); em +10, aplica queimadura.</li><li><strong>Armadura:</strong> Resistência a fogo 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de fogo têm +1 CD e +1 dado de dano em +10.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 80,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "aco-vulcanico"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "nbUKuWNWbBiq2sV2",
+   "name": "Ferro Etéreo",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/essencia-mana.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Um minério instável entre o mundo físico e o espiritual.</em></p><ul><li><strong>Arma:</strong> Ignora 10%/25%/50%/75% de cobertura e camuflagem.</li><li><strong>Armadura:</strong> Concede visão no escuro e resistência espiritual 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias aumentam o alcance em +5m a cada 3 níveis.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 90,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "ferro-etereo"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "GQB66vaJacj2fvzR",
+   "name": "Pedra da Aurora",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/gemas-preciosas.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Cristal que reflete o amanhecer e canaliza energia cósmica.</em></p><ul><li><strong>Arma:</strong> +1 no ataque (+1 a cada 3 níveis); em +10, causa cegueira (CD 15).</li><li><strong>Armadura:</strong> +1 Defesa (+1 a cada 3 níveis) e resistência a luz 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de luz ou cura restauram +1d6 PV em +7 e +2d6 em +10.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 100,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "pedra-da-aurora"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "unJHh99QE1QMkhEw",
+   "name": "Coração de Leviatã",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/essencia-abissal.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Essência abissal condensada do sangue de criaturas marinhas antigas.</em></p><ul><li><strong>Arma:</strong> +1d6 de dano de água (+1d6 a cada 3 níveis).</li><li><strong>Armadura:</strong> Resistência a frio e eletricidade 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias de água ou gelo restauram 1 PM por rodada quando causam dano.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 110,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "coracao-de-leviata"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "AnTXhq0xvaZHAiiq",
+   "name": "Prisma Onírico",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/orbe-cristalina.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Fragmento cristalino nascido dos sonhos de Munir.</em></p><ul><li><strong>Arma:</strong> Dano psíquico +1/+2/+3/+4; em +10, confunde o alvo (Vontade CD 15).</li><li><strong>Armadura:</strong> Imunidade parcial a medo e ilusão (1/2/3/4 usos por descanso).</li><li><strong>Esotérico:</strong> Magias de ilusão e mente ganham +1 CD e +1d6 de dano mental em +10.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 120,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "prisma-onirico"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "CJGaliOLZoahx9ub",
+   "name": "Aço-Dracônico",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/dente-de-dragao.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Forjado com escamas dos Reis Dragões.</em></p><ul><li><strong>Arma:</strong> +1 de dano físico (+1 a cada 3 níveis); em +10, ignora RD mágica.</li><li><strong>Armadura:</strong> +1 Defesa (+1 a cada 3 níveis) e resistência elemental 5/10/15/20.</li><li><strong>Esotérico:</strong> Magias causam +1 de dano por dado e ignoram resistência elemental.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 130,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "aco-draconico"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "PkGlguGtk7knD0Cs",
+   "name": "Luz Estelar",
+   "type": "consumivel",
+   "img": "systems/tormenta20/icons/itens/gerais/metal-arco-iris.webp",
+   "system": {
+    "description": {
+     "value": "<p><em>Metal celestial vindo de meteoros sagrados.</em></p><ul><li><strong>Arma:</strong> Dano radiante +1/+2/+3/+4; em +10, cega mortos-vivos por 1 rodada.</li><li><strong>Armadura:</strong> RD contra trevas 5/10/15/20 e luz constante de 3m.</li><li><strong>Esotérico:</strong> Magias de luz ganham +2 CD e dissipam trevas mágicas.</li></ul><p>Material ancestral: só pode ser aplicado uma única vez, em item de nível 0. Os efeitos escalam com o nível do item (+1/+4/+7/+10). Aplique pelo bloco <em>Forja</em> na ficha do item.</p>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "tipo": "material",
+    "subtipo": ""
+   },
+   "effects": [],
+   "folder": "rVbD8BEO2PYcS5Bm",
+   "sort": 140,
+   "flags": {
+    "reliquias-do-apocalipse": {
+     "material": "luz-estelar"
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ]
+}

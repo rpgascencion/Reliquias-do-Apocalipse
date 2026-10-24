@@ -1,0 +1,234 @@
+/* ==========================================================
+   As Relíquias do Apocalipse (T20) — tema e componentes
+   - Fonte do livro com "unicode-range": os caracteres que ela não tem
+     (+ / = % $ & º ª ½ …) caem na Trade Winds, a fonte antiga do livro.
+   - Tema escuro: html[data-reliquias-tema="escuro"].
+   - Fonte nos títulos: html[data-reliquias-fonte="sim"].
+   ========================================================== */
+@font-face {
+	font-family: "Reliquias";
+	src: url("../fonts/ReliquiasDoApocalipse.ttf") format("truetype");
+	unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-003B, U+003F, U+0041-005A, U+0061-007A, U+00C0-00C3, U+00C7, U+00C9-00CA, U+00CD, U+00D3-00D5, U+00DA, U+00E0-00E3, U+00E7, U+00E9-00EA, U+00ED, U+00F3-00F5, U+00FA, U+2013-2014, U+2019, U+201C-201D;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Reliquias Apoio";
+	src: url("../fonts/TradeWinds-Regular.ttf") format("truetype");
+	font-display: swap;
+}
+
+:root {
+	--rel-fonte: "Reliquias", "Reliquias Apoio", "Signika", serif;
+	--rel-vermelho: #980000;
+	--rel-vermelho-claro: #c23b2e;
+	--rel-rosa: #f4cccc;
+	--rel-ouro: #b8860b;
+	--rel-texto: #191813;
+	--rel-texto-2: #4b4a44;
+	--rel-painel: rgba(0, 0, 0, 0.05);
+	--rel-borda: rgba(152, 0, 0, 0.45);
+	--rel-ed: #6b3fa0;
+	--rel-san: #2f6f6a;
+}
+html[data-reliquias-tema="escuro"] {
+	--rel-fundo: #141010;
+	--rel-fundo-2: #1d1514;
+	--rel-fundo-3: #271b19;
+	--rel-linha: rgba(217, 182, 93, 0.16);
+	--rel-ouro: #d9b65d;
+	--rel-texto: #eadcc4;
+	--rel-texto-2: #b9a98e;
+	--rel-texto-3: #8f8270;
+	--rel-painel: rgba(255, 255, 255, 0.04);
+	--rel-borda: rgba(217, 182, 93, 0.28);
+	--rel-rosa: #3a1a1a;
+	--rel-ed: #a58ad6;
+	--rel-san: #6fb8b0;
+}
+
+/* ---------------- fonte do livro nos títulos ---------------- */
+html[data-reliquias-fonte="sim"] :is(
+	.window-app > .window-header .window-title,
+	.application > .window-header .window-title,
+	.tormenta20.sheet .charname input,
+	.tormenta20.sheet.item .sheet-header h1 input,
+	.tormenta20.sheet h4.box-title,
+	.tormenta20.sheet .tabs .item,
+	.journal-entry-page h1, .journal-entry-page h2, .journal-entry-page h3,
+	.journal-page-header h1,
+	.tormenta20.chat-card .card-header h3,
+	.rel-bloco > legend, .rel-barra-titulo, .rel-critico h3, .rel-forja-num, .rel-chat-forja b:first-child
+) {
+	font-family: var(--rel-fonte);
+	letter-spacing: 0.02em;
+}
+
+/* ---------------- tema escuro: janelas ---------------- */
+html[data-reliquias-tema="escuro"] :is(.window-app, .application) > .window-header {
+	background: linear-gradient(180deg, #2b0c0c 0%, #170909 100%);
+	border-bottom: 1px solid #5a1e1e;
+	color: var(--rel-ouro);
+}
+html[data-reliquias-tema="escuro"] :is(.window-app, .application) > .window-header :is(.window-title, a, button, i) {
+	color: var(--rel-ouro);
+}
+
+/* ---------------- tema escuro: fichas do Tormenta20 ---------------- */
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .window-content,
+html[data-reliquias-tema="escuro"] .reliquias.rel-dialogo .window-content {
+	background: radial-gradient(ellipse at top, #241918 0%, #141010 70%) !important;
+	color: var(--rel-texto);
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(input, select, textarea):not([type="checkbox"]):not([type="radio"]) {
+	background: rgba(0, 0, 0, 0.35);
+	color: var(--rel-texto);
+	border-color: #4a2b26;
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(input, select, textarea):disabled { color: var(--rel-texto-3); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet option { background: #1d1514; color: var(--rel-texto); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(h1, h2, h3, h4, label, .item-name, .item-summary, .effects-list, .effects-list .item .item-name) { color: var(--rel-texto); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet h4.box-title,
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor h4.box-title { color: var(--rel-ouro); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(span.sep, .filter-list .filter-icon, .sheet-header .item-subtitle, .notes, .spell-comps, .spell-slots, .traits .inactive) { color: var(--rel-texto-3); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .sheet-header .summary > li { color: var(--rel-texto-2); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor :is(.item-list, .tab .currency .currency-item),
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor .skills-list .skill:not(.item-header, .create-skill):nth-child(odd),
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor.character .sheet-header .header-exp .charlevel .level {
+	background: var(--rel-fundo-2);
+	color: var(--rel-texto);
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet.actor.character .sheet-header .header-exp .charlevel { color: var(--rel-texto); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(.tag, .traits .trait-list .tag, .traits select, .effects-list, .effects-list .items-header, .item-properties .properties-list li) {
+	background-color: var(--rel-painel);
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .items-header,
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .item-list .items-header {
+	background: linear-gradient(90deg, #5a0f0f, #2b0c0c);
+	color: var(--rel-ouro);
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .item-list .item:hover { background: rgba(152, 0, 0, 0.18); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(a, .rollable):hover { color: var(--rel-ouro); text-shadow: none; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet nav.tabs .item.active,
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .sheet-tabs .item.active {
+	color: var(--rel-ouro);
+	text-shadow: 0 0 6px rgba(217, 182, 93, 0.35);
+	border-bottom: 2px solid var(--rel-vermelho);
+}
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .ability .atributo-value { color: var(--rel-ouro); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .editor-content,
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .editor { color: var(--rel-texto); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet :is(hr) { border-color: var(--rel-linha); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .profile { border-color: #5a1e1e; }
+
+/* ---------------- tema escuro: diário e chat ---------------- */
+html[data-reliquias-tema="escuro"] .journal-entry-page :is(h1, h2, h3) { color: var(--rel-ouro); border-color: var(--rel-borda); }
+html[data-reliquias-tema="escuro"] .chat-message .rel-critico,
+html[data-reliquias-tema="escuro"] .chat-message .rel-chat-forja { color: #191813; }
+
+/* ---------------- T20 Sidebar (módulo do usuário) com a paleta do Relíquias ---------------- */
+html:root[data-reliquias-tema="escuro"] {
+	--t20-bg: #130e0e;
+	--t20-row-a: #130e0e;
+	--t20-row-b: #1d1514;
+	--t20-row-hover: #3a1010;
+	--t20-text: #eadcc4;
+	--t20-muted: #9c8f7c;
+	--t20-name: #d9b65d;
+	--t20-name-hover: #ffffff;
+	--t20-sub: #d0574f;
+	--t20-line: rgba(217, 182, 93, 0.16);
+	--t20-input-bg: #0c0808;
+	--t20-input-text: #eadcc4;
+	--t20-input-border: #5a1e1e;
+	--t20-icon: #eadcc4;
+	--t20-icon-hover: #d9b65d;
+	--t20-msg-bg: #e8d1b5;
+	--t20-scroll-track: #1d1514;
+	--t20-vinho: #5a0f0f;
+	--t20-vermelho: #980000;
+	--t20-ouro: #d9b65d;
+	--t20-marrom: #5a1e1e;
+}
+html:root[data-reliquias-fonte="sim"] :is(#sidebar, body) :is(.t20-tab, .sidebar-tab) :is(section.access button, section.info .title, .folder-name, .combatant .token-initiative, .combatant .initiative-input, h4.divider) {
+	font-family: var(--rel-fonte);
+}
+
+/* ---------------- componentes do módulo ---------------- */
+/* ED e Sanidade ao lado de PV/PM */
+.tormenta20.sheet li.attribute.rel-recurso .attribute-name { color: var(--rel-ed); }
+.tormenta20.sheet li.attribute.rel-sanidade .attribute-name { color: var(--rel-san); }
+.tormenta20.sheet li.attribute.rel-recurso input[disabled] { opacity: 0.8; }
+.tormenta20.sheet ul.rel-recursos-solto { margin: 4px 0; }
+
+/* barra do Relíquias na ficha */
+.tormenta20.sheet .rel-barra {
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin: 4px 0 6px;
+	padding: 3px 8px;
+	border: 1px solid var(--rel-borda);
+	border-left: 4px solid var(--rel-vermelho);
+	border-radius: 4px;
+	background: var(--rel-painel);
+	font-size: var(--font-size-12, 12px);
+	color: var(--rel-texto);
+	flex: 0 0 auto;
+}
+.tormenta20.sheet .rel-barra label { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; white-space: nowrap; }
+.tormenta20.sheet .rel-barra select { width: auto; height: 22px; }
+.tormenta20.sheet .rel-barra input.rel-ed-bonus { width: 38px; height: 22px; text-align: center; }
+.tormenta20.sheet .rel-barra-titulo { color: var(--rel-vermelho-claro); font-size: 15px; flex: 0 0 auto; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-barra-titulo { color: var(--rel-ouro); }
+.tormenta20.sheet .rel-barra .rel-botao { flex: 0 0 auto; padding: 0 3px; font-size: 14px; }
+.tormenta20.sheet .rel-barra .rel-botao:first-of-type { margin-left: auto; }
+.tormenta20.sheet .rel-aviso { color: var(--rel-vermelho-claro); font-weight: bold; }
+
+/* blocos na ficha de item (Técnica Divina e Forja) */
+.tormenta20.sheet .rel-bloco {
+	border: 1px solid var(--rel-borda);
+	border-left: 4px solid var(--rel-vermelho);
+	border-radius: 4px;
+	padding: 4px 10px 8px;
+	margin: 4px 0 10px;
+	background: var(--rel-painel);
+}
+.tormenta20.sheet .rel-bloco > legend { color: var(--rel-vermelho-claro); font-size: 15px; padding: 0 6px; }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-bloco > legend { color: var(--rel-ouro); }
+.tormenta20.sheet .rel-bloco h4 { margin: 8px 0 2px; border-bottom: 1px solid var(--rel-borda); }
+.tormenta20.sheet .rel-bloco button { width: auto; padding: 0 10px; line-height: 24px; }
+.tormenta20.sheet .rel-forja-nivel { align-items: center; gap: 10px; }
+.tormenta20.sheet .rel-forja-num { flex: 0 0 64px; font-size: 32px; text-align: center; color: var(--rel-vermelho-claro); }
+html[data-reliquias-tema="escuro"] .tormenta20.sheet .rel-forja-num { color: var(--rel-ouro); text-shadow: 0 0 8px rgba(217, 182, 93, 0.35); }
+.tormenta20.sheet .rel-forja-info { flex: 1; }
+.tormenta20.sheet .rel-forja-nivel button { flex: 0 0 auto; }
+.tormenta20.sheet .rel-forja-mods { list-style: none; margin: 2px 0 6px; padding: 0; }
+.tormenta20.sheet .rel-forja-mods li { padding: 2px 0; border-bottom: 1px dotted var(--rel-borda); }
+.tormenta20.sheet .rel-runa { display: flex; align-items: center; gap: 6px; min-height: 34px; padding: 3px 6px; border: 1px dashed var(--rel-borda); border-radius: 4px; }
+.tormenta20.sheet .rel-runa img { border: none; }
+
+/* janela de distribuição de atributos */
+.rel-distribuicao .rel-atr-linha { display: flex; align-items: center; gap: 8px; padding: 3px 0; border-bottom: 1px solid var(--rel-borda); }
+.rel-distribuicao .rel-atr-nome { flex: 1; font-family: var(--rel-fonte); font-size: 16px; }
+.rel-distribuicao .rel-atr-valor { width: 34px; text-align: center; font-size: 18px; font-weight: bold; }
+.rel-distribuicao button { flex: 0 0 30px; width: 30px; height: 26px; padding: 0; }
+.rel-distribuicao .rel-restam { text-align: center; font-size: 15px; margin-top: 8px; }
+.rel-distribuicao .rel-negativo { color: var(--rel-vermelho-claro); }
+.rel-distribuicao .rel-nota { font-size: 12px; opacity: 0.85; }
+
+/* cartões no chat */
+.rel-critico, .rel-chat-forja { border-left: 4px solid var(--rel-vermelho); padding: 2px 8px; background: rgba(152, 0, 0, 0.06); }
+.rel-critico h3 { margin: 0 0 2px; border: none; font-size: 18px; color: #6f0000; }
+.rel-critico.rel-falha { border-left-color: #7a7971; }
+.rel-critico.rel-falha h3 { color: #4b4a44; }
+.rel-critico button { margin-top: 4px; }
+.chat-card .rel-custo-ed { flex: 0 0 auto; align-self: center; margin-left: 4px; padding: 1px 6px; border-radius: 3px; background: #6b3fa0; color: #fff; font-size: 12px; }
+
+/* tabelas e fórmulas do livro (diário) */
+.rel-tabela { width: 100%; border-collapse: collapse; margin: 8px 0; text-align: center; }
+.rel-tabela th { background: #980000; color: #1a0505; border: 1px solid #000; padding: 4px; font-weight: bold; }
+.rel-tabela td { background: #f4cccc; color: #191813; border: 1px solid #000; padding: 3px 4px; }
+html[data-reliquias-tema="escuro"] .rel-tabela th { color: #f3e6c8; border-color: #3a1010; }
+html[data-reliquias-tema="escuro"] .rel-tabela td { background: #2a1717; color: #eadcc4; border-color: #3a1010; }
+.rel-pericias thead { display: none; }
+.rel-formula { text-align: center; padding: 6px; border-top: 1px solid #980000; border-bottom: 1px solid #980000; }

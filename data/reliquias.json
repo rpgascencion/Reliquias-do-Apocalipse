@@ -1,0 +1,965 @@
+{
+ "folders": [
+  {
+   "_id": "ats6zq2AElcjmTNp",
+   "name": "Relíquias e Runas",
+   "type": "Item",
+   "folder": null,
+   "sorting": "m",
+   "sort": 1,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "ieJBI4HgPCSaFfWV",
+   "name": "Reliquia do Tempo",
+   "type": "equipamento",
+   "img": "modules/reliquias-do-apocalipse/images/itens/reliquia-do-tempo.webp",
+   "system": {
+    "description": {
+     "value": "<ol><li data-start=\"953\" data-end=\"1017\"><p data-start=\"955\" data-end=\"1017\">O portador recebe <strong data-start=\"973\" data-end=\"993\">+1 em Iniciativa</strong> e <strong data-start=\"996\" data-end=\"1014\">+2 em Reflexos</strong>.</p></li><li data-start=\"1018\" data-end=\"1215\"><p data-start=\"1020\" data-end=\"1215\">Magias ou habilidades que afetem o tempo (como lentidão, aceleração ou reações temporais) têm <strong data-start=\"1114\" data-end=\"1147\">duração aumentada em 1 rodada.<br /><br />SLOT DE COLAR</strong></p></li></ol>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": 0,
+     "value": 0
+    },
+    "tipo": "acessorio"
+   },
+   "effects": [
+    {
+     "name": "Reliquia do Tempo",
+     "img": "modules/reliquias-do-apocalipse/images/itens/reliquia-do-tempo.webp",
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.inic.bonus",
+       "mode": 2,
+       "value": "1"
+      },
+      {
+       "key": "system.pericias.refl.bonus",
+       "mode": 2,
+       "value": "2"
+      }
+     ],
+     "_id": "gWRaWdlLHnyZrjT5",
+     "type": "base",
+     "system": {},
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.348",
+      "systemId": "tormenta20",
+      "systemVersion": "1.5.012",
+      "createdTime": 1760583375649,
+      "modifiedTime": 1760583375649,
+      "lastModifiedBy": "48gZFLOFecTlt5vR"
+     }
+    }
+   ],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 0,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "b9ARe10szsJb3MZ2",
+   "name": "Runa Do Eco Profano",
+   "type": "equipamento",
+   "img": "modules/reliquias-do-apocalipse/images/itens/runa-do-eco-profano.webp",
+   "system": {
+    "description": {
+     "value": "<p><strong data-start=\"2451\" data-end=\"2486\">Efeito Passivo – Voz dos Caídos</strong><br /><br />Enquanto a arma (ou foco) estiver runada:</p><ul data-start=\"2529\" data-end=\"2847\"><li data-start=\"2529\" data-end=\"2670\"><p data-start=\"2531\" data-end=\"2670\">Ataques e magias que reduzam uma criatura a 0 PV <strong data-start=\"2580\" data-end=\"2610\">geram um sussurro fantasma</strong> — o portador recupera <strong data-start=\"2633\" data-end=\"2643\">1d4 PV</strong> ou <strong data-start=\"2647\" data-end=\"2667\">1 PM (à escolha)</strong>.</p></li><li><p data-start=\"2673\" data-end=\"2847\">Mortos-vivos não hostis (como crânios animados, espectros passivos, ou entidades neutras) <strong data-start=\"2763\" data-end=\"2793\">não atacam automaticamente</strong> o portador, a menos que sejam diretamente provocados.<br /><br /><strong data-start=\"2861\" data-end=\"2923\">Efeito Ativo – Chamado da Tumba (1 vez por descanso longo)</strong></p></li></ul><p data-start=\"2673\" data-end=\"2847\">O portador pode invocar os ecos necromânticos da runa para animar os restos de um inimigo derrotado.</p><ul data-start=\"3027\" data-end=\"3350\"><li data-start=\"3027\" data-end=\"3138\"><p data-start=\"3029\" data-end=\"3138\">Gasta <strong data-start=\"3035\" data-end=\"3051\">2 PM ou 1 ED</strong> para criar um <strong data-start=\"3066\" data-end=\"3087\">Servo Esquelético</strong> (usar ficha de <em data-start=\"3103\" data-end=\"3126\">Esqueleto Despedaçado</em> nível 1).</p></li><li data-start=\"3139\" data-end=\"3224\"><p data-start=\"3141\" data-end=\"3224\">Dura <strong data-start=\"3146\" data-end=\"3161\">1d6 rodadas</strong> e <strong data-start=\"3164\" data-end=\"3221\">não pode ser controlado por outro necromante ou litch</strong>.</p></li><li data-start=\"3225\" data-end=\"3350\"><p data-start=\"3227\" data-end=\"3350\">Ao fim da duração, o servo explode em um <strong data-start=\"3268\" data-end=\"3285\">pulso profano</strong>, causando <strong data-start=\"3296\" data-end=\"3321\">1d8 de dano de trevas</strong> em criaturas num raio de 3m.</p></li></ul>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": 0,
+     "value": 0
+    },
+    "tipo": "bonus"
+   },
+   "effects": [
+    {
+     "name": "Voz dos Caidos",
+     "img": "modules/reliquias-do-apocalipse/images/itens/runa-do-eco-profano.webp",
+     "origin": null,
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [],
+     "_id": "odcDjcFmYBCUzyOU",
+     "type": "base",
+     "system": {},
+     "description": "<p>Ataques e magias que reduzam uma criatura a 0 PV <strong data-start=\"2580\" data-end=\"2610\">geram um sussurro fantasma</strong> — o portador recupera <strong data-start=\"2633\" data-end=\"2643\">1d4 PV</strong> ou <strong data-start=\"2647\" data-end=\"2667\">1 PM (à escolha)</strong>.</p>",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.348",
+      "systemId": "tormenta20",
+      "systemVersion": "1.5.012",
+      "createdTime": 1760583854042,
+      "modifiedTime": 1760583868444,
+      "lastModifiedBy": "48gZFLOFecTlt5vR"
+     }
+    }
+   ],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 10,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "dIeQ1WdKZQb8xZ8e",
+   "name": "Runa do Nada",
+   "type": "equipamento",
+   "img": "modules/reliquias-do-apocalipse/images/itens/runa-do-nada.webp",
+   "system": {
+    "description": {
+     "value": "<h2 data-start=\"1222\" data-end=\"1255\"><strong data-start=\"1228\" data-end=\"1255\">AURA DO VAZIO (PASSIVA)</strong></h2><p data-start=\"1257\" data-end=\"1291\">Enquanto a arma estiver empunhada:</p><ul data-start=\"1293\" data-end=\"1397\"><li data-start=\"1293\" data-end=\"1397\"><p data-start=\"1295\" data-end=\"1332\">Inimigos a <strong data-start=\"1306\" data-end=\"1312\">3m</strong> do portador sofrem:</p><ul data-start=\"1335\" data-end=\"1397\"><li data-start=\"1335\" data-end=\"1365\"><p data-start=\"1337\" data-end=\"1365\"><strong data-start=\"1337\" data-end=\"1363\">–1 em testes de ataque</strong></p></li><li data-start=\"1368\" data-end=\"1397\"><p data-start=\"1370\" data-end=\"1397\"><strong data-start=\"1370\" data-end=\"1397\">–1 em testes de Vontade</strong></p><h2 data-start=\"1462\" data-end=\"1504\"><em data-start=\"1481\" data-end=\"1500\"><strong data-start=\"1468\" data-end=\"1502\">Pulso do Silêncio</strong></em></h2><p data-start=\"1505\" data-end=\"1569\"><strong data-start=\"1505\" data-end=\"1515\">Custo:</strong> 1 ED<br data-start=\"1520\" data-end=\"1523\" /><strong data-start=\"1523\" data-end=\"1532\">Ação:</strong> Bônus<br data-start=\"1538\" data-end=\"1541\" /><strong data-start=\"1541\" data-end=\"1549\">Uso:</strong> 1 vez por combate</p><p data-start=\"1571\" data-end=\"1639\">O portador ativa a runa e o mundo parece perder som por um instante.</p><p data-start=\"1641\" data-end=\"1652\"><strong data-start=\"1641\" data-end=\"1652\">Efeito:</strong></p><ul data-start=\"1653\" data-end=\"1815\"><li data-start=\"1653\" data-end=\"1815\"><p data-start=\"1655\" data-end=\"1680\">O próximo ataque da arma:</p><ul data-start=\"1683\" data-end=\"1815\"><li data-start=\"1683\" data-end=\"1721\"><p data-start=\"1685\" data-end=\"1721\">causa <strong data-start=\"1691\" data-end=\"1719\">+1d8 de dano de antimana</strong></p><p>Se o alvo cair a 0 PV com esse ataque:</p><ul data-start=\"1856\" data-end=\"1927\"><li data-start=\"1856\" data-end=\"1927\"><p data-start=\"1858\" data-end=\"1927\">A aura aumenta para <strong data-start=\"1878\" data-end=\"1884\">6m</strong> até o início do próximo turno do portador.</p></li></ul></li></ul></li></ul></li></ul></li></ul>",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [],
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "body"
+    },
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": 0,
+     "value": 0
+    },
+    "tipo": "bonus"
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 20,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "tvcKk6F0scbts0s1",
+   "name": "Espada Do Nada",
+   "type": "arma",
+   "img": "modules/reliquias-do-apocalipse/images/itens/espada-do-nada.webp",
+   "system": {
+    "description": {
+     "value": "",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "alcance": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "luta",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d6",
+        "dano"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "sim",
+    "proficiencia": "simples",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "leve",
+    "criticoM": 19,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 30,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "xgnuLfGW2Nq0zP1l",
+   "name": "Raio da Putrefação",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/raio-do-enfraquecimento.webp",
+   "system": {
+    "description": {
+     "value": "",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "Se reduzir o alvo a 0 PV, este se levanta como um Esqueleto Controlado.",
+    "chatGif": "",
+    "ativacao": {
+     "custo": null,
+     "condicao": "",
+     "execucao": "action",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 18
+    },
+    "alcance": "m",
+    "alvo": "1 inimigo",
+    "area": "",
+    "efeito": "",
+    "resistencia": {
+     "txt": "Reflexos CD 15, reduz a metade",
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "3d8+5",
+        "trevas"
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "circulo": 1,
+    "escola": "abj",
+    "tipo": "arc",
+    "preparada": false,
+    "equipado2": {
+     "slot": 0,
+     "type": ""
+    }
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 40,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "ymwtFXaYxn3VGlCB",
+   "name": "Onda de Entropia",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/condicao.webp",
+   "system": {
+    "description": {
+     "value": "",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "todos os inimigos num raio de 6m fazem Reflexos CD 16; falha = 2d10+5 de dano de trevas e ficam lentos por 1 rodada.",
+    "chatGif": "",
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 6
+    },
+    "alcance": "m",
+    "alvo": "Todos num raio de 6m",
+    "area": "6m",
+    "efeito": "2d10+5, lentidao por 1 rodada",
+    "resistencia": {
+     "txt": "Reflexos CD 16",
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0
+    },
+    "rolls": [
+     {
+      "name": "Dano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "2d10+5",
+        "trevas"
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "circulo": 1,
+    "escola": "nec",
+    "tipo": "uni",
+    "preparada": false,
+    "equipado2": {
+     "slot": 0,
+     "type": ""
+    }
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 50,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "cMkOxfVDasLSNAG6",
+   "name": "Revolver",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": {
+     "value": "",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": ""
+    },
+    "alcance": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d6",
+        "dano"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "sim",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "leve",
+    "criticoM": 20,
+    "criticoX": 1,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 60,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  },
+  {
+   "_id": "DrgvOwA68yQdFyDV",
+   "name": "Fuzil de Precisão",
+   "type": "arma",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": {
+     "value": "",
+     "unidentified": ""
+    },
+    "source": "As Relíquias do Apocalipse",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "carregado": true,
+    "espacos": 0,
+    "peso": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+     "value": 0,
+     "max": 0
+    },
+    "rd": 0,
+    "ativacao": {
+     "custo": 0,
+     "condicao": "",
+     "execucao": "passive",
+     "qtd": "",
+     "special": ""
+    },
+    "consume": {
+     "amount": 0,
+     "mpMultiplier": false,
+     "target": "",
+     "type": "ammo"
+    },
+    "alcance": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        ""
+       ],
+       [
+        "pont",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "2d10",
+        "dano"
+       ],
+       [
+        "padrao",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "tipoUso": "sim",
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "criticoM": 20,
+    "criticoX": 1,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "des": false,
+     "dup": false,
+     "ver": false,
+     "hib": false
+    },
+    "size": "normal"
+   },
+   "effects": [],
+   "folder": "ats6zq2AElcjmTNp",
+   "sort": 70,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "createdTime": 1792800000000,
+    "modifiedTime": 1792800000000,
+    "lastModifiedBy": "reliquias00000000",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+   }
+  }
+ ]
+}
