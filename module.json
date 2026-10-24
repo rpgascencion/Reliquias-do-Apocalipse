@@ -82,7 +82,7 @@
     {
       "name": "Relíquias do Apocalipse",
       "sorting": "m",
-      "color": "#5a0f0f",
+      "color": "#3d3359",
       "packs": ["livro", "equipamentos", "forja", "bencaos", "reliquias"]
     }
   ],

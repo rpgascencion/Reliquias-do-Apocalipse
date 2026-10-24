@@ -244,7 +244,7 @@ function injetar(app, html) {
 	const cat = categoria(item);
 	if (!cat) return;
 	const raiz = elemento(html);
-	const aba = raiz?.querySelector('.tab.enhancements[data-tab="enhancements"]');
+	const aba = abaMelhorias(raiz);
 	if (!aba || aba.querySelector(".rel-forja")) return;
 	const e = estado(item);
 	const ed = app.isEditable;
@@ -310,22 +310,41 @@ function esconderMelhoriasT20(app, html) {
 	if (!cfg("esconderMelhoriasT20", true)) return;
 	const item = app.item ?? app.document;
 	const raiz = elemento(html);
-	const aba = raiz?.querySelector('.tab.enhancements[data-tab="enhancements"]');
+	const aba = abaMelhorias(raiz);
 	if (!item || !aba) return;
-	for (const filho of aba.children) {
-		if (filho.classList.contains("rel-forja") || filho.classList.contains("size")) continue;
-		filho.style.display = "none";
+	const hayd = aba.dataset.tab === "hayd-itens";
+	if (hayd) {
+		// aba do T20 Hayd Itens: some a escolha de melhorias/encantos/materiais; o preço base continua
+		aba.querySelectorAll(".hayd-filtro, .hayd-secao").forEach((el) => (el.style.display = "none"));
+		aba.querySelectorAll(".hayd-preco-item").forEach((el) => { if (!el.querySelector(".hayd-preco-base") && !el.classList.contains("hayd-preco-total")) el.style.display = "none"; });
+	} else {
+		for (const filho of aba.children) {
+			if (filho.classList.contains("rel-forja") || filho.classList.contains("size")) continue;
+			filho.style.display = "none";
+		}
 	}
-	const link = raiz.querySelector('.sheet-tabs [data-tab="enhancements"]');
+	const link = raiz.querySelector(`.sheet-tabs [data-tab="${aba.dataset.tab}"]`);
 	if (!link) return;
-	const temConteudo = aba.querySelector(".rel-forja") || aba.querySelector(".form-group.size");
+	const temConteudo = hayd || aba.querySelector(".rel-forja") || aba.querySelector(".form-group.size");
 	if (!temConteudo) {
 		link.style.display = "none";
 		if (aba.classList.contains("active")) raiz.querySelector('.sheet-tabs [data-tab="description"]')?.click();
 	} else if (aba.querySelector(".rel-forja")) link.textContent = "Forja";
 }
 
+/** A aba de melhorias do sistema ou a que o T20 Hayd Itens põe no lugar dela. */
+function abaMelhorias(raiz) {
+	return raiz?.querySelector('.tab.enhancements[data-tab="enhancements"]') ?? raiz?.querySelector('.tab[data-tab="hayd-itens"]') ?? null;
+}
+
+/** Outros módulos (ex.: T20 Hayd Itens) montam as abas no mesmo momento: roda de novo logo depois. */
+function aoRenderizar(app, html) {
+	const vez = () => { try { injetar(app, html); esconderMelhoriasT20(app, html); } catch (e) { console.error(`${MOD} | forja`, e); } };
+	vez();
+	setTimeout(vez, 60);
+	setTimeout(vez, 400);
+}
+
 export function iniciarForja() {
-	Hooks.on("renderItemSheet", injetar);
-	Hooks.on("renderItemSheet", esconderMelhoriasT20);
+	Hooks.on("renderItemSheet", aoRenderizar);
 }
