@@ -353,3 +353,4 @@ html[data-reliquias-fonte="sim"] .tormenta20.sheet .window-content :is(h1, h2, h
 html[data-reliquias-fonte="sim"] .tormenta20.sheet .window-content :is(.editor-content, .editor-content *, prose-mirror, prose-mirror *, textarea) {
 	font-family: var(--font-body, "Signika", sans-serif);
 }
+html[data-reliquias-fonte="sim"] .tormenta20.sheet.actor li.attribute .attribute-name { letter-spacing: 0 !important; font-size: 10px !important; white-space: nowrap; }
