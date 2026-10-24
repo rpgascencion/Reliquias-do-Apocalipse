@@ -301,6 +301,31 @@ function injetar(app, html) {
 	});
 }
 
+/**
+ * Com o módulo ativo, as melhorias, materiais e encantos do Tormenta20 não aparecem nos itens:
+ * a aba vira "Forja" (só o bloco do Relíquias e o tamanho da arma). Itens que já tinham
+ * melhorias do T20 continuam com os efeitos; só a escolha some da ficha.
+ */
+function esconderMelhoriasT20(app, html) {
+	if (!cfg("esconderMelhoriasT20", true)) return;
+	const item = app.item ?? app.document;
+	const raiz = elemento(html);
+	const aba = raiz?.querySelector('.tab.enhancements[data-tab="enhancements"]');
+	if (!item || !aba) return;
+	for (const filho of aba.children) {
+		if (filho.classList.contains("rel-forja") || filho.classList.contains("size")) continue;
+		filho.style.display = "none";
+	}
+	const link = raiz.querySelector('.sheet-tabs [data-tab="enhancements"]');
+	if (!link) return;
+	const temConteudo = aba.querySelector(".rel-forja") || aba.querySelector(".form-group.size");
+	if (!temConteudo) {
+		link.style.display = "none";
+		if (aba.classList.contains("active")) raiz.querySelector('.sheet-tabs [data-tab="description"]')?.click();
+	} else if (aba.querySelector(".rel-forja")) link.textContent = "Forja";
+}
+
 export function iniciarForja() {
 	Hooks.on("renderItemSheet", injetar);
+	Hooks.on("renderItemSheet", esconderMelhoriasT20);
 }

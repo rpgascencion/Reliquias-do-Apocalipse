@@ -58,6 +58,11 @@ export function registrarConfiguracoes() {
 		name: "Valor máximo de um atributo na criação",
 		scope: "world", type: Number, default: 3
 	});
+	reg("esconderMelhoriasT20", {
+		name: "Esconder melhorias, materiais e encantos do T20",
+		hint: "Nos itens, a aba Melhorias vira Forja: só aparecem a Forja de Gudar e os materiais do livro. Itens que já têm melhorias do T20 mantêm os efeitos.",
+		scope: "world", type: Boolean, default: true
+	});
 	reg("forjaConsome", {
 		name: "Forja: consumir pedras/ladrilhos e Midares",
 		hint: "Ao aprimorar, procura a Pedra da Forja ou o Ladrilho da Proteção do nível no inventário e desconta os Midares. O Mestre sempre pode forjar sem cobrar.",

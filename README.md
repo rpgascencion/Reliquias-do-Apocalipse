@@ -23,7 +23,8 @@ https://raw.githubusercontent.com/rpgascencion/Reliquias-do-Apocalipse/main/modu
 - **Distribuição de pontos do livro**: todos começam com 1, 6 pontos, máximo 3, mínimo -3, e de 1 se desce direto para -1.
 - **A Forja de Gudar**: na aba Melhorias de armas, armaduras e escudos. Aprimora de +1 a +10 consumindo a pedra/ladrilho do nível e os Midares, aplica +1 passo de dano (armas) ou +2 de Defesa (armaduras) a cada 3 níveis, libera 1 modificação a cada 2 níveis, aplica o material especial (só no nível 0) com efeitos que escalam em +1/+4/+7/+10 e tem o slot de Runa (arraste o item da runa).
 - **Crítico do livro**: no 20 natural de um ataque com arma, o módulo rola o d100 de confirmação (25 ou menos) e oferece o botão de dano da arma multiplicado pelo atributo de ataque.
-- **Tema escuro** com a fonte do livro nos títulos, também aplicado ao módulo T20 Sidebar. Os nomes do livro (Vigor, Intelecto, Presença, M$) podem ser desligados.
+- **Tema escuro** com a fonte do livro nos títulos; a barra lateral (T20 Sidebar) fica em cinza e roxo com a fonte do livro.
+- **Melhorias, materiais e encantos do T20 escondidos** nos itens: a aba vira **Forja** (pode desligar nas configurações). Os nomes do livro (Vigor, Intelecto, Presença, M$) podem ser desligados.
 
 Tudo pode ser ligado ou desligado em **Configurações → Configurar módulos → As Relíquias do Apocalipse**.
 
