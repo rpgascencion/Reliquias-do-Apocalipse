@@ -150,9 +150,13 @@ html:root[data-reliquias-tema="escuro"] {
 	--t20-marrom: #3e3653;
 	--t20-pergaminho: #dcd8e4;
 }
+html:root[data-reliquias-tema="escuro"] :is(#sidebar, body) :is(.t20-tab, .sidebar-tab),
+html:root[data-reliquias-tema="escuro"] :is(#sidebar, body) :is(.t20-tab, .sidebar-tab) :is(.directory-list, .directory-header, .directory-footer, .chat-log, .combat-tracker) {
+	color: #dcd8e4;
+}
 html:root[data-reliquias-tema="escuro"] :is(#sidebar, body) :is(.t20-tab, .sidebar-tab) {
 	background-color: #17161b;
-	background-blend-mode: luminosity;
+	background-blend-mode: multiply;
 	scrollbar-color: #5b4691 #1f1d25;
 }
 /* botões grandes: sem a textura vermelha, degradê roxo */
