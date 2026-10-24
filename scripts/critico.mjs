@@ -66,7 +66,7 @@ function botoes(message, html) {
 		ev.preventDefault();
 		const { formula, mult, tipo } = ev.currentTarget.dataset;
 		const r = await new Roll(`(${formula}) * ${mult}`).evaluate();
-		r.toMessage({ speaker: message.speaker, flavor: `Dano crítico (×${mult})${tipo ? ` — ${tipo}` : ""}`, flags: { [MOD]: { critico: true } } });
+		r.toMessage({ speaker: message.speaker, flavor: `Dano crítico (×${mult})${tipo ? ` — ${game.i18n.localize(CONFIG.T20?.damageTypes?.[tipo] ?? tipo)}` : ""}`, flags: { [MOD]: { critico: true } } });
 	}));
 }
 

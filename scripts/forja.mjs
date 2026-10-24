@@ -114,6 +114,10 @@ async function aplicar(item, e) {
 	if (velhos.length) await item.deleteEmbeddedDocuments("ActiveEffect", velhos);
 	const novos = montarEfeitos(item, e);
 	if (novos.length) await item.createEmbeddedDocuments("ActiveEffect", novos);
+	// o sistema só recalcula os rótulos do item (ataque, dano) quando o personagem é preparado de novo
+	item.actor?.reset();
+	item.sheet?.rendered && item.sheet.render(false);
+	item.actor?.sheet?.rendered && item.actor.sheet.render(false);
 }
 
 /* ---------------- custos ---------------- */

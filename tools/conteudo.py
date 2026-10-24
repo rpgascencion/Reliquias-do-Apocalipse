@@ -18,9 +18,7 @@ ARMAS = [
     dict(nome="Arcanoblaster", dano="2d8", pente=3, alcance=("medium", 0), area="", preco=1250, espacos=2,
          empunhadura="duas", desc="Uma arma de duas mãos que dispara descargas mágicas devastadoras. Pode gastar <strong>+2 PM</strong> para um disparo concentrado, causando 1 dado de dano a mais e ignorando a RD do alvo nesse ataque. Possui 3 balas em seu carregador."),
 ]
-REGRA_PENTE = ("<p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. "
-               "Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p>"
-               "<p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>")
+REGRA_PENTE = "<p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>"
 
 # ---------------------------------------------------------------- armaduras e escudos
 # (nome, tipo T20, defesa, rd, penalidade, deslocamento, preco, espacos)

@@ -75,7 +75,7 @@
    "img": "systems/tormenta20/icons/itens/equipamentos/pistola.webp",
    "system": {
     "description": {
-     "value": "<p>Arma leve e prática, ideal para combates rápidos a curta distância. Possui 6 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "value": "<p>Arma leve e prática, ideal para combates rápidos a curta distância. Possui 6 balas em seu carregador.</p><p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>",
      "unidentified": ""
     },
     "source": "As Relíquias do Apocalipse",
@@ -225,7 +225,7 @@
    "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
    "system": {
     "description": {
-     "value": "<p>Devastadora em proximidade, dispara energia mágica concentrada; seu disparo atinge uma área cônica de 6m. Empunhada com duas mãos. Possui 3 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "value": "<p>Devastadora em proximidade, dispara energia mágica concentrada; seu disparo atinge uma área cônica de 6m. Empunhada com duas mãos. Possui 3 balas em seu carregador.</p><p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>",
      "unidentified": ""
     },
     "source": "As Relíquias do Apocalipse",
@@ -375,7 +375,7 @@
    "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
    "system": {
     "description": {
-     "value": "<p>Uma arma de duas mãos e precisa; necessita de +2 em Força para ser utilizada. <strong>Ignora metade da RD do alvo</strong> (aplique na mesa). Possui 4 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "value": "<p>Uma arma de duas mãos e precisa; necessita de +2 em Força para ser utilizada. <strong>Ignora metade da RD do alvo</strong> (aplique na mesa). Possui 4 balas em seu carregador.</p><p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>",
      "unidentified": ""
     },
     "source": "As Relíquias do Apocalipse",
@@ -525,7 +525,7 @@
    "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
    "system": {
     "description": {
-     "value": "<p>Uma arma de duas mãos que dispara em sucessão rápida, sacrificando precisão pela pressão ofensiva. Pode gastar <strong>+1 PM</strong> para efetuar um disparo em rajada de 3 tiros; cada disparo além do primeiro recebe –1 na Pontaria, sucessivamente. Possui 9 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "value": "<p>Uma arma de duas mãos que dispara em sucessão rápida, sacrificando precisão pela pressão ofensiva. Pode gastar <strong>+1 PM</strong> para efetuar um disparo em rajada de 3 tiros; cada disparo além do primeiro recebe –1 na Pontaria, sucessivamente. Possui 9 balas em seu carregador.</p><p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>",
      "unidentified": ""
     },
     "source": "As Relíquias do Apocalipse",
@@ -675,7 +675,7 @@
    "img": "systems/tormenta20/icons/itens/equipamentos/mosquete.webp",
    "system": {
     "description": {
-     "value": "<p>Uma arma de duas mãos que dispara descargas mágicas devastadoras. Pode gastar <strong>+2 PM</strong> para um disparo concentrado, causando 1 dado de dano a mais e ignorando a RD do alvo nesse ataque. Possui 3 balas em seu carregador.</p><p><strong>Armas de fogo arcanas.</strong> As armas de fogo em Gudar são, na verdade, arcanas e alimentadas por magia. Recarregar exige uma <strong>ação de movimento e 1 PM</strong>. A cada 3 níveis de aprimoramento da arma, esse custo aumenta em +1.</p><p><strong>Treinamento em Armas de Fogo Mágicas</strong> (poder de combate): você recebe proficiência em todas as armas de fogo arcanas.</p>",
+     "value": "<p>Uma arma de duas mãos que dispara descargas mágicas devastadoras. Pode gastar <strong>+2 PM</strong> para um disparo concentrado, causando 1 dado de dano a mais e ignorando a RD do alvo nesse ataque. Possui 3 balas em seu carregador.</p><p><strong>Recarga:</strong> ação de movimento + 1 PM (+1 PM a cada 3 níveis de aprimoramento). Proficiência: poder de combate Treinamento em Armas de Fogo Mágicas.</p>",
      "unidentified": ""
     },
     "source": "As Relíquias do Apocalipse",

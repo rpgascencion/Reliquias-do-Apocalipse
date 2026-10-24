@@ -86,8 +86,8 @@
       "packs": ["livro", "equipamentos", "forja", "bencaos", "reliquias"]
     }
   ],
-  "url": "https://github.com/rpgascencion/reliquias-do-apocalipse",
-  "manifest": "https://raw.githubusercontent.com/rpgascencion/reliquias-do-apocalipse/main/module.json",
-  "download": "https://github.com/rpgascencion/reliquias-do-apocalipse/raw/main/reliquias-do-apocalipse.zip",
-  "readme": "https://github.com/rpgascencion/reliquias-do-apocalipse/blob/main/README.md"
+  "url": "https://github.com/rpgascencion/Reliquias-do-Apocalipse",
+  "manifest": "https://raw.githubusercontent.com/rpgascencion/Reliquias-do-Apocalipse/main/module.json",
+  "download": "https://github.com/rpgascencion/Reliquias-do-Apocalipse/raw/main/reliquias-do-apocalipse.zip",
+  "readme": "https://github.com/rpgascencion/Reliquias-do-Apocalipse/blob/main/README.md"
 }

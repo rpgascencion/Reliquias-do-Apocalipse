@@ -6,7 +6,7 @@ Módulo de ambientação para **Foundry VTT v13** com o sistema **Tormenta20**. 
 No Foundry, **Add-on Modules → Install Module** e cole o manifesto:
 
 ```
-https://raw.githubusercontent.com/rpgascencion/reliquias-do-apocalipse/main/module.json
+https://raw.githubusercontent.com/rpgascencion/Reliquias-do-Apocalipse/main/module.json
 ```
 
 ## Compêndios (pasta "Relíquias do Apocalipse")
@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/rpgascencion/reliquias-do-apocalipse/main/modu
 ## Regras automatizadas
 - **Energia Divina (ED)** e **Sanidade**: aparecem ao lado de PV e PM. O máximo é calculado: ED = 1 + ½ atributo-chave no 1º nível, +1 por nível, +1 nos níveis ímpares se a classe principal dá 4+ PM por nível, menos as passivas reservadas. Sanidade = 10 + Sab no 1º nível, +4 + Sab por nível. Ficam em `system.resources.ed` e `system.resources.sanidade` (servem para barras de token).
 - **Barra Relíquias** na ficha: atributo-chave da Bênção (Int, Sab ou Pre), CD das Técnicas, bônus manual de ED, descanso (recupera ED) e **Distribuir atributos**.
-- **Técnicas Divinas**: na ficha de um poder, aba Detalhes, bloco *Técnica Divina*: nível 0 a 5 e tipo (ativa, passiva ou Marca da Bênção). As ativas consomem ED ao usar (consumo nativo do sistema); sem ED suficiente o uso é bloqueado. Passivas reservam ED do máximo.
+- **Técnicas Divinas**: na ficha de um poder, aba Detalhes, bloco *Técnica Divina*: nível 0 a 5 e tipo (ativa, passiva ou Marca da Bênção). As ativas descontam a ED ao usar; sem ED suficiente o uso é bloqueado. Passivas reservam ED do máximo.
 - **Distribuição de pontos do livro**: todos começam com 1, 6 pontos, máximo 3, mínimo -3, e de 1 se desce direto para -1.
 - **A Forja de Gudar**: na aba Melhorias de armas, armaduras e escudos. Aprimora de +1 a +10 consumindo a pedra/ladrilho do nível e os Midares, aplica +1 passo de dano (armas) ou +2 de Defesa (armaduras) a cada 3 níveis, libera 1 modificação a cada 2 níveis, aplica o material especial (só no nível 0) com efeitos que escalam em +1/+4/+7/+10 e tem o slot de Runa (arraste o item da runa).
 - **Crítico do livro**: no 20 natural de um ataque com arma, o módulo rola o d100 de confirmação (25 ou menos) e oferece o botão de dano da arma multiplicado pelo atributo de ataque.
