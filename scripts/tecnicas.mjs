@@ -1,6 +1,6 @@
 /**
  * Técnicas Divinas: poderes do tipo Distinção com nível 0 a 5.
- * - Ativas: custam 1 ED por nível (consumo nativo do sistema: "Atributo" → Energia Divina).
+ * - Ativas: custam 1 ED por nível, descontado ao usar (sem ED suficiente, o uso é bloqueado).
  * - Passivas: reservam 1 ED por nível do máximo (a Marca da Bênção é gratuita).
  * O bloco "Técnica Divina" aparece na aba Detalhes da ficha do poder.
  */
@@ -16,17 +16,33 @@ async function salvar(item, t) {
 	const upd = { [`flags.${MOD}.tecnica`]: t };
 	if (t) {
 		upd["system.tipo"] = "distincao";
-		if (t.passiva) {
-			if (item.system.consume?.target === "ed") Object.assign(upd, { "system.consume.type": "", "system.consume.target": "", "system.consume.amount": 0 });
-			upd["system.ativacao.execucao"] = "passive";
-		} else {
-			Object.assign(upd, { "system.consume.type": "attribute", "system.consume.target": "ed", "system.consume.amount": Number(t.nivel) || 0 });
-			if (item.system.ativacao?.execucao === "passive") upd["system.ativacao.execucao"] = "action";
-		}
-	} else if (item.system.consume?.target === "ed") {
-		Object.assign(upd, { "system.consume.type": "", "system.consume.target": "", "system.consume.amount": 0 });
+		if (t.passiva) upd["system.ativacao.execucao"] = "passive";
+		else if (item.system.ativacao?.execucao === "passive") upd["system.ativacao.execucao"] = "action";
 	}
 	await item.update(upd);
+}
+
+/** Cobra a ED das técnicas ativas ao usar (o sistema não tem consumo para poderes). */
+function cobrarAoUsar() {
+	const proto = CONFIG.Item.documentClass?.prototype;
+	if (!proto?.roll) return;
+	const original = proto.roll;
+	proto.roll = async function (...args) {
+		const t = this.type === "poder" ? dadosTecnica(this) : null;
+		const custo = t && !t.passiva ? Number(t.nivel) || 0 : 0;
+		const actor = this.actor;
+		if (custo > 0 && actor) {
+			const atual = Number(actor.system.resources?.ed?.value ?? 0);
+			if (atual < custo) {
+				ui.notifications.warn(`${actor.name} não tem Energia Divina suficiente para ${this.name} (precisa ${custo}, tem ${atual}).`);
+				return null;
+			}
+			const r = await original.apply(this, args);
+			if (r) await actor.update({ "system.resources.ed.value": atual - custo });
+			return r;
+		}
+		return original.apply(this, args);
+	};
 }
 
 function injetarItem(app, html) {
@@ -87,6 +103,7 @@ function etiquetaChat(message, html) {
 }
 
 export function iniciarTecnicas() {
+	cobrarAoUsar();
 	Hooks.on("renderItemSheet", injetarItem);
 	if (game.release.generation >= 13) Hooks.on("renderChatMessageHTML", etiquetaChat);
 	else Hooks.on("renderChatMessage", etiquetaChat);

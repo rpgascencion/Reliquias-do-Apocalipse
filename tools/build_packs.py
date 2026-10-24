@@ -11,7 +11,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SYS = "systems/tormenta20/icons"
 IMG = f"modules/{MOD}/images"
 STATS = {"coreVersion": "13.351", "systemId": "tormenta20", "systemVersion": "1.5.015", "createdTime": 1792800000000,
-         "modifiedTime": 1792800000000, "lastModifiedBy": "reliquias00000000", "compendiumSource": None, "duplicateSource": None, "exportSource": None}
+         "modifiedTime": 1792800000000, "lastModifiedBy": None, "compendiumSource": None, "duplicateSource": None, "exportSource": None}
 ALFA = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 def gid(*partes):
@@ -114,7 +114,6 @@ def forja():
 # ------------------------------------------------------------ compêndio: bênçãos e técnicas
 def poder(desc, execucao="passive", custo_ed=0, nivel=0, passiva=False, marca=False, bencao=False):
     s = {**base_sys(desc), "ativacao": ATIV(execucao=execucao),
-         "consume": {"amount": custo_ed, "mpMultiplier": False, "target": "ed" if custo_ed else "", "type": "attribute" if custo_ed else ""},
          "duracao": {"units": "inst", "value": 0, "special": ""}, "range": {"units": "", "value": 0}, "alcance": "", "alvo": "", "area": "",
          "rolls": [], "tipo": "distincao", "subtipo": ""}
     fl = {MOD: {"tecnica": {"nivel": nivel, "passiva": passiva, "marca": marca}}} if not bencao else {MOD: {"bencao": True}}

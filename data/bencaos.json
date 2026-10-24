@@ -16,7 +16,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -47,12 +47,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -87,7 +81,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -116,12 +110,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -160,7 +148,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -189,12 +177,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -233,7 +215,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -262,12 +244,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 1,
-     "mpMultiplier": false,
-     "target": "ed",
-     "type": "attribute"
     },
     "duracao": {
      "units": "inst",
@@ -306,7 +282,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -335,12 +311,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 2,
-     "mpMultiplier": false,
-     "target": "ed",
-     "type": "attribute"
     },
     "duracao": {
      "units": "inst",
@@ -379,7 +349,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -408,12 +378,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 3,
-     "mpMultiplier": false,
-     "target": "ed",
-     "type": "attribute"
     },
     "duracao": {
      "units": "inst",
@@ -452,7 +416,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -481,12 +445,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 4,
-     "mpMultiplier": false,
-     "target": "ed",
-     "type": "attribute"
     },
     "duracao": {
      "units": "inst",
@@ -525,7 +483,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -554,12 +512,6 @@
      "execucao": "action",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 5,
-     "mpMultiplier": false,
-     "target": "ed",
-     "type": "attribute"
     },
     "duracao": {
      "units": "inst",
@@ -598,7 +550,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -627,12 +579,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -671,7 +617,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -700,12 +646,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -744,7 +684,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -773,12 +713,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -817,7 +751,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -846,12 +780,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -890,7 +818,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
@@ -919,12 +847,6 @@
      "execucao": "passive",
      "qtd": "",
      "special": ""
-    },
-    "consume": {
-     "amount": 0,
-     "mpMultiplier": false,
-     "target": "",
-     "type": ""
     },
     "duracao": {
      "units": "inst",
@@ -963,7 +885,7 @@
     "systemVersion": "1.5.015",
     "createdTime": 1792800000000,
     "modifiedTime": 1792800000000,
-    "lastModifiedBy": "reliquias00000000",
+    "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
